@@ -29,7 +29,7 @@ The basic design and layout for this app has been mocked out and the names of th
 - [X] Users must have a form where they enter in at minimum the name of a kitten 
 - [X] A Kitten's name and mood must be visible for the user 
 - [X] A custom Google Font must be added 
-- [ ] A Kitten's mood must affect visually the appearance of the kitten 
+- [X] A Kitten's mood must affect visually the appearance of the kitten 
 - [X] Add Kitten form clears when submitted 
 - [X] Add Kitten form submission does not reload the page 
 - [X] Kittens are stored in local storage 
