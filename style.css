@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 *{
   box-sizing: border-box;
 }
@@ -22,7 +24,7 @@ body{
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 header{
@@ -131,6 +133,7 @@ button.btn-special:hover{
 .kitten img{
   filter: drop-shadow(2px 4px 6px #1b1b1b);
   transition: all .35s ease;
+  display: block;
 }
 .kitten.happy img{
   filter: drop-shadow(2px 4px 6px #00ffb3);
@@ -146,7 +149,6 @@ button.btn-special:hover{
 }
 .kitten.gone{
   color: var(--danger);
-  pointer-events: none;
 }
 
 .bg-dark{
@@ -265,11 +267,11 @@ button.btn-special:hover{
 
 .action{
   cursor: pointer;
-  transition: all .3s linear;
+  transition: all .2s linear;
   filter: brightness(.8);
 }
 .action:hover{
-  filter: brightness(1);
+  filter: brightness(1.5);
 }
 
 .hidden{
